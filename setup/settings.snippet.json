@@ -1,0 +1,14 @@
+{
+  "_comment": "Chép các mục allow này vào ~/.claude/settings.json (mảng permissions.allow) để Claude khỏi hỏi quyền cho các thao tác CHỈ-ĐỌC của chrome-devtools. Các thao tác ghi (click, fill, evaluate_script) cố tình KHÔNG để sẵn — vẫn nên hỏi quyền.",
+  "permissions": {
+    "allow": [
+      "mcp__chrome-devtools__list_pages",
+      "mcp__chrome-devtools__take_snapshot",
+      "mcp__chrome-devtools__take_screenshot",
+      "mcp__chrome-devtools__new_page",
+      "mcp__chrome-devtools__navigate_page",
+      "mcp__chrome-devtools__wait_for",
+      "mcp__chrome-devtools__close_page"
+    ]
+  }
+}
